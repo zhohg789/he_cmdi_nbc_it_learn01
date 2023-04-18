@@ -1,0 +1,28 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    border: none;
+    height: 100vh;
+}
+table {
+    width: 500px;
+    border-collapse: collapse;
+}
+td {
+    border: 1px solid #333333;
+}
+.title {
+    width: 20%;
+}
+.index {
+    width: 30px;
+}
+.desc {
+    width: calc((80% - 30px)/2);
+    text-align: left;
+}
+.category {
+    width: calc((80% - 30px)/2);
+    text-align: left;
+}
